@@ -1,0 +1,685 @@
+/target:library
+/nowarn:0169
+/nowarn:0649
+/out:Temp/Microsoft.MixedReality.Toolkit.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Async.dll
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/define:UNITY_2019_4_22
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_WINRT
+/define:PLATFORM_METRO
+/define:UNITY_METRO
+/define:UNITY_METRO_API
+/define:UNITY_WSA
+/define:UNITY_WSA_10_0
+/define:UNITY_WINRT_10_0
+/define:UNITY_WINRT
+/define:ENABLE_MOVIES
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_NETWORK
+/define:UNITY_PLATFORM_THREAD_TO_CORE_MAPPING
+/define:PLATFORM_SUPPORTS_ADS_ID
+/define:CURL_STATICLIB
+/define:PLATFORM_OVERRIDES_APPLICATION_PACKAGE_NAME
+/define:PLATFORM_IMPLEMENTS_ATTACH_DIALOG
+/define:DISABLE_PLUGIN_LOAD_WRAPPER
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\DocLinkAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\EnumFlagsAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\ExperimentalAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\ExtendsAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\HelpAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\ImplementsAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\MixedRealityControllerAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\MixedRealityDataProviderAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\MixedRealityExtensionServiceAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\MixedRealityServiceInspectorAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\MixedRealityServiceProfileAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\PhysicsLayerAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\PrefabAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\ReadOnlyAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\ScenePickAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\SystemTypeAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\TagPropertyAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Attributes\Vector3RangeAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\BaseMixedRealityProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\BoundarySystem\BoundaryType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\BoundarySystem\Edge.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\BoundarySystem\InscribedRectangle.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\BoundarySystem\MixedRealityBoundaryVisualizationProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\CameraSystem\BaseCameraSettingsProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\CameraSystem\CameraDisplayType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\CameraSystem\MixedRealityCameraProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\CameraSystem\MixedRealityCameraSettingsConfiguration.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\ControllerMappingLibrary.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\DeviceInputType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\GestureInputType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\Headset.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\InputSourceType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\MixedRealityControllerConfigurationFlags.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\MixedRealityControllerMapping.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\MixedRealityControllerMappingProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\MixedRealityControllerVisualizationProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\MixedRealityControllerVisualizationSetting.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\MixedRealityEyeTrackingProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\MixedRealityHandTrackingProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\MixedRealityInteractionMapping.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\SDKType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\SupportedControllerType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Devices\TrackingState.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Diagnostics\MixedRealityDiagnosticsProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\AnimatedCursorData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\CursorContextEnum.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\CursorStateEnum.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\InputActionEventPair.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\InputActionRuleDigital.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\InputActionRuleDualAxis.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\InputActionRulePoseAxis.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\InputActionRuleQuaternionAxis.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\InputActionRuleSingleAxis.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\InputActionRuleVectorAxis.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\KeywordAndResponse.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\MixedRealityGestureMapping.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\MixedRealityGesturesProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\MixedRealityInputAction.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\MixedRealityInputActionRulesProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\MixedRealityInputActionsProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\MixedRealityInputSystemProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\MixedRealityPointerProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\MixedRealityRaycastHit.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\MixedRealitySpeechCommandsProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\PointerBehavior.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\PointerOption.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\SpeechCommands.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\TouchableEventType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\InputSystem\WindowsGestureSettings.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Lines\DistortionMode.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Lines\InterpolationMode.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Lines\InterpolationType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Lines\LinePointTransformMode.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Lines\LineRotationMode.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Lines\PointDistributionMode.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Lines\StepMode.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\MixedRealityInputDataProviderConfiguration.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\MixedRealityRegisteredServiceProvidersProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\MixedRealityServiceConfiguration.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\MixedRealitySpatialObserverConfiguration.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\MixedRealityToolkitConfigurationProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Physics\ComparableRaycastResult.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Physics\FocusDetails.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Physics\RayStep.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Physics\SceneQueryType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Physics\TeleportSurfaceResult.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SceneSystem\LightingSceneTransitionType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SceneSystem\MixedRealitySceneSystemProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SceneSystem\RuntimeLightingSettings.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SceneSystem\RuntimeRenderSettings.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SceneSystem\RuntimeSunlightSettings.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SceneSystem\SceneActivationToken.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SceneSystem\SceneInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SpatialAwareness\BaseSpatialAwarenessObject.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SpatialAwareness\BaseSpatialAwarenessObserverProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SpatialAwareness\MixedRealitySpatialAwarenessMeshObserverProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SpatialAwareness\MixedRealitySpatialAwarenessSystemProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SpatialAwareness\SpatialAwarenessMeshLevelOfDetail.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SpatialAwareness\SpatialAwarenessMeshObject.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SpatialAwareness\SpatialAwarenessPlanarObject.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SpatialAwareness\SpatialAwarenessSurfaceTypes.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\SpatialAwareness\SpatialMeshDisplayOptions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\AnimatorParameter.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\ArticulatedHandPose.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\AutoStartBehavior.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\AxisFlags.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\AxisType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\CollationOrder.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\ExperienceScale.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\Handedness.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\ManipulationHandFlags.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\ManipulationProximityFlags.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\MixedRealityCapability.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\MixedRealityPose.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\MixedRealityTransform.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\MovementConstraintType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\OrientationType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\PivotAxis.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\ProcessResult.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\ProfileMenuItemIndices.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\RadialViewReferenceDirection.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\RecognitionConfidenceLevel.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\RotationConstraintType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\ScaleState.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\SceneAssetReferenceAttribute.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\SolverOrientationType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\SupportedApplicationModes.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\SupportedPlatforms.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\SystemType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\TrackedHandJoint.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\TrackedObjectType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\TransformFlags.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\TypeGrouping.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\Vector3Smoothed.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Definitions\Utilities\VolumeType.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Boundary\BoundaryEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Diagnostics\DiagnosticsEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\GenericBaseEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Input\BaseInputEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Input\DictationEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Input\FocusEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Input\HandTrackingInputEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Input\InputEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Input\MixedRealityPointerEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Input\SourcePoseEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Input\SourceStateEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Input\SpeechEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\PlacementEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\SpatialAwareness\MixedRealitySpatialAwarenessEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\EventDatum\Teleport\TeleportEventData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\AnimationCurveExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\ArrayExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\AssemblyExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\BoundsExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\CameraExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\CanvasExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\CollectionsExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\Color32Extensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\ComparerExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\ComponentExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\DateTimeExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\DoubleExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\EnumerableExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\EventSystemExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\FloatExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\GameObjectExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\HandednessExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\LayerExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\MathfExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\ProcessExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\QuaternionExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\RayExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\ReflectionExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\StringBuilderExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\StringExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\SystemNumericsExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\Texture2DExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\TransformExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\TypeExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\UnityObjectExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Extensions\VectorExtensions.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Audio\IAudioInfluencer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\BoundarySystem\IMixedRealityBoundaryHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\BoundarySystem\IMixedRealityBoundarySystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\CameraSystem\IMixedRealityCameraSettingsProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\CameraSystem\IMixedRealityCameraSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Devices\IMixedRealityController.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Devices\IMixedRealityControllerPoseSynchronizer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Devices\IMixedRealityControllerVisualizer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Devices\IMixedRealityDictationSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Devices\IMixedRealityHand.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Devices\IMixedRealityHandJointService.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Devices\IMixedRealityHandVisualizer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Devices\IMixedRealityInputDeviceManager.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Devices\IMixedRealitySpeechSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Diagnostics\IMixedRealityDiagnosticsHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Diagnostics\IMixedRealityDiagnosticsSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\EventSystem\Handlers\IMixedRealityEventHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\EventSystem\IMixedRealityEventSource.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\EventSystem\IMixedRealityEventSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\IMixedRealityServiceConfiguration.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityBaseInputHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityDictationHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityFocusChangedHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityFocusHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityGestureHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityHandJointHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityHandMeshHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityInputActionHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityInputHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityPointerHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealitySourcePoseHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealitySourceStateHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealitySpeechHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\Handlers\IMixedRealityTouchHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\ICursorModifier.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IInputActionRule.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityCursor.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityEyeGazeDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityEyeGazeProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityEyeSaccadeProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityFocusProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityGazeProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityGazeProviderHeadOverride.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityInputSource.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityInputSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityMouseDeviceManager.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityMousePointer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityNearPointer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityPointer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityPointerMediator.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityPrimaryPointerSelector.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityRaycastProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityTeleportPointer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IMixedRealityTouchPointer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IPointerPreferences.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\InputSystem\IPointerResult.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Physics\IBaseRayStabilizer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Registrars\IMixedRealityServiceRegistrar.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Rendering\IMaterialInstanceOwner.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\SceneSystem\IMixedRealitySceneSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\SceneSystem\IMixedRealitySceneSystemEditor.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Services\IMixedRealityCapabilityCheck.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Services\IMixedRealityDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Services\IMixedRealityDataProviderAccess.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Services\IMixedRealityExtensionService.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\Services\IMixedRealityService.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\SpatialAwareness\Handlers\IMixedRealitySpatialAwarenessObservationHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\SpatialAwareness\IMixedRealitySpatialAwarenessObject.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\SpatialAwareness\IMixedRealitySpatialAwarenessSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\SpatialAwareness\Observers\IMixedRealitySpatialAwarenessMeshObserver.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\SpatialAwareness\Observers\IMixedRealitySpatialAwarenessObserver.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\SpatialAwareness\Observers\ISpatialAwarenessPhysicsProperties.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\TeleportSystem\Handlers\IMixedRealityTeleportHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\TeleportSystem\IMixedRealityTeleportHotSpot.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Interfaces\TeleportSystem\IMixedRealityTeleportSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\BaseCameraSettingsProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\BaseController.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\BaseGenericInputSource.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\BaseInputDeviceManager.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\BaseSpatialMeshObserver.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\BaseSpatialObserver.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\GenericPointer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\Hands\ArticulatedHandDefinition.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\Hands\BaseHand.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\Hands\BaseHandVisualizer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\Hands\HandBounds.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\Hands\HandJointService.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\Hands\HandJointUtils.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\Hands\HandRay\HandRay.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\Hands\HandRay\IHandRay.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\UnityInput\GenericJoystickController.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\UnityInput\MixedRealityMouseInputProfile.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\UnityInput\MouseController.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\UnityInput\MouseDeviceManager.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\UnityInput\UnityJoystickManager.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\UnityInput\UnityTouchController.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\UnityInput\UnityTouchDeviceManager.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Providers\UnityInput\XboxController.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Services\BaseBoundarySystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Services\BaseCoreSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Services\BaseDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Services\BaseDataProviderAccessCoreSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Services\BaseEventSystem.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Services\BaseExtensionService.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Services\BaseService.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Services\MixedRealityToolkit.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\CameraCache.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\CameraEventRouter.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\CameraFOVChecker.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\CoreServices.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\DebugUtilities.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\DeviceUtility.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\EdgeUtilities.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Facades\ServiceFacade.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\FastSimplexNoise.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\GameObjectManagement\GameObjectCreator.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\GameObjectManagement\GameObjectPool.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\GameObjectManagement\GenericPrefabInstanceCreator.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\GameObjectManagement\IGameObjectCreatorListener.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\InspectorFields\InspectorField.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\InspectorFields\InspectorFieldData.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\InspectorFields\InspectorGenericFields.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\InspectorFields\InspectorPropertySettings.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\BaseMixedRealityLineDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\BezierDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\BezierInertia.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\EllipseLineDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\ParabolaConstrainedLineDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\ParabolaLineDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\ParabolaPhysicalLineDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\RectangleLineDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\SimpleLineDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\DataProviders\SplineDataProvider.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\LineFollower.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\LineUtility.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\Renderers\BaseMixedRealityLineRenderer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\Renderers\MeshLineRenderer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\Renderers\MixedRealityLineRenderer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\Renderers\ParticleSystemLineRenderer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Lines\Renderers\StripMeshLineRenderer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\MaintainBorderLightWidth.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\MathUtilities.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Migration\IMigrationHandler.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\MixedRealityPlayspace.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\MixedRealityServiceRegistry.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\OBJWriterUtility.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\BaseRayStabilizer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\Distorters\Distorter.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\Distorters\DistorterBulge.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\Distorters\DistorterGravity.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\Distorters\DistorterSimplex.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\Distorters\DistorterSphere.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\Distorters\DistorterWiggly.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\GazeStabilizer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\InterpolationUtilities.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\Interpolator.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\MixedRealityRaycaster.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\RaycastResultComparer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Physics\VectorRollingStatistics.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\PlatformUtility.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Rendering\DepthBufferRenderer.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Rendering\MaterialInstance.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Scenes\EditorSceneUtils.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Scenes\RuntimeSceneUtils.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\Scenes\SerializedObjectUtils.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\ScriptingUtilities.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StabilizedRay.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\BaseMeshOutline.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\ClippingBox.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\ClippingPlane.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\ClippingPrimitive.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\ClippingSphere.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\HoverLight.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\MeshOutline.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\MeshOutlineHierarchy.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\MeshSmoother.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\ProximityLight.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\StandardShader\StandardShaderUtility.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\TypeCacheUtility.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\UWPCapabilityUtility.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WebRequestRest\Response.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WebRequestRest\Rest.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsApiChecker.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\ActivePowerSchemeInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\AdapterInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\ApplicationInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\AvailableWiFiNetworks.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\BatteryInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\DHCPInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\DeviceInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\DeviceOsInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\DevicePortalConnections.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\FileInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\FileList.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\InstallStatus.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\InstalledApps.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\InterfaceInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\IpAddressInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\IpConfigInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\MachineName.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\NetworkInterfaces.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\NetworkProfileInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\PowerStateInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\ProcessInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\ProcessList.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DataStructures\WirelessNetworkInfo.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\WindowsDevicePortal\DevicePortal.cs
+C:\Users\prapti.sarker\Documents\Unity\2ndTrial\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@37a38ac87e88-1619538913177\Core\Utilities\XRSubsystemHelpers.cs
